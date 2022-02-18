@@ -1,0 +1,19 @@
+{
+  "version": "2.198.3",
+  "extract_dir": "vsts-agent",
+  "bin": [
+    "run.cmd",
+    "config.cmd"
+  ],
+  "architecture": {
+    "64bit": {
+      "url": "https://vstsagentpackage.azureedge.net/agent/2.198.3/vsts-agent-win-x64-2.198.3.zip"
+    }
+  },
+  "homepage": "https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/agents?view=azure-devops&tabs=browser#install",
+  "installer": {
+    "script": "config.cmd",
+    "keep": true
+  },
+  "license": "MIT"
+}
